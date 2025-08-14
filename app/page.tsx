@@ -34,6 +34,9 @@ export default function Page() {
           {/* Add Hero Images Here */}
           <Image
             src="/hero-desktop.png"
+            // * width and height are not the desired size of the image, rather it is the original measurements of the image
+            // * Next.js uses these values to figure out how to resize the image on its own
+            // * These values can be an aspect ratio identical to the source image
             width={1000}
             height={760}
             className="hidden md:block"
